@@ -1,0 +1,11 @@
+{
+  "name": "claudimations-engine",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Code-only frame renderer for claudimations videos",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.9"
+  }
+}

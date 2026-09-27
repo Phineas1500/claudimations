@@ -1,0 +1,21 @@
+# installed / downloaded by setup.sh
+engine/node_modules/
+engine/.venv/
+engine/fonts/
+engine/voices/
+
+# build outputs
+videos/*/build/
+renders/
+*.mp4
+*.wav
+
+# reference videos belong to their creator; only the written analysis is kept
+reference/*
+!reference/ANALYSIS.md
+!reference/analysis/
+reference/analysis/*
+!reference/analysis/audio_analysis.py
+
+__pycache__/
+.DS_Store
